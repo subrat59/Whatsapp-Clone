@@ -1,0 +1,52 @@
+.appbar{
+    background-color: #24B977;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 50vh;
+}
+#logo{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#nav-text{
+    margin-top: 40px;
+}
+.box{
+    position: absolute;
+    top: 40rem;
+    left: 50%;
+    height: 50rem;
+    width: 50rem;
+    transform: translate(-50%, -50%);
+}
+.sign{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.qr-and-proc{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.procedure{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.qr{
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/220px-QR_code_for_mobile_English_Wikipedia.svg.png');
+    background-size: auto 100%;
+    transform: scale(1.04);
+    cursor: pointer;
+}

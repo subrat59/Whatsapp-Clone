@@ -1,0 +1,21 @@
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+} 
+@media screen and (max-width: 1011px) {
+    .right {
+      visibility: hidden; /* or any other styling you want to apply */
+    }
+  }
+  /* Custom CSS */
+@media (max-width: 600px) {
+    .MuiGrid-item {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  
